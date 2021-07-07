@@ -226,7 +226,7 @@ header .container h1 {
   background-color: #1b77ff;
 }
 .bg-done {
-  background-color: rgb(140, 233, 0);
+  background-color: rgb(83, 198, 25);
 }
 .bg-refactoring {
   background-color: #ff3366;
@@ -323,7 +323,7 @@ td .profile {
   letter-spacing: -2.4px;
 }
 #stacks .star-icon i {
-  color: rgb(140, 233, 0);
+  color: rgb(245, 226, 8);
 }
 
 /* salary   */
