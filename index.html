@@ -116,12 +116,12 @@
                 <tbody>
                 </tr>
                 <tr>
-                 <th class="table-title" scope="col">개발한 프로젝트 서비스</th>
+                 <th class="table-title" scope="col" style="text-align: center;">여행 커뮤니티 <div></div>Servlet/JSP 프로젝트</th>
                  <td>
                    <div>여행 플래너 기반 커뮤니티 사이트</div>
                    <div>
                      #Java #Servlet/JSP #Oracle
-                     #HTML #CSS #JavaScrpit
+                     #HTML #CSS #JavaScrpit #PL/SQL
                      
                    </div>
                    <div>
@@ -138,7 +138,7 @@
                    </div>
                  </td>
                  <td class="text-center">
-                   <div class="">(0.5M/M)</div>
+                   <div class="">(5M/M)</div>
                    <div class="progress">
                      <div class="progress-bar progress-bar-striped bg-info" style="width: 100%">
                        <span class="progress-desc">100%</span>
@@ -147,11 +147,107 @@
                    <!-- <div class="progress-desc">백엔드 개발</div> -->
                  </td>
                  <td class="text-center">
-                   <span class="text-muted">
-                     <i class="bi bi-file-earmark-slides"></i>
-                   </span>
-                 </td>
+                  <span class="text-muted" data-bs-toggle="modal" data-bs-target="#Modal3">
+                    <i class="bi bi-file-earmark-slides"></i>
+                    <div class="modal fade" id="Modal3" tabindex="-1" aria-labelledby="Modal1Label" aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="Modal1Label">개발 프로젝트 증빙 자료</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                            <img src="./assets/img/pjtcapture/JSP01.png" style="width: 100%;" onclick="imgchange3()" name="pjtimg3">
+                            <p class="modal-desc">
+                              <em style="color: tomato;">여행 플래너 기반 커뮤니티 사이트</em><br>
+                              1. 카카오지도 API를 활용한 동적 여행 일정 만들기 <br>
+                              2. 질문 게시판(CRUD + 추천 기능) <br>
+                              3. 장바구니 및 결제,예약 내역(CRUD + 결제 기능) <br>
+                              4. 결제페이지 
+                              
+                              <br>
+                              <span style="color: darkblue;">[이미지 클릭시 다음 이미지로 이동]</span>
+                              
+                            </p>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" onclick="window.location.href='https://github.com/leejunheee/SIST2_Travel'">GitHub 저장소로 이동</button>
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </span>
+                </td>
                </tr>
+
+
+
+               <tr>
+                <th class="table-title" scope="col" style="text-align: center;">DB 프로젝트 </th>
+                <td>
+                  <div>데이터베이스(Oracle)을 활용한 '교육센터 운영 프로그램'</div>
+                  <div>
+                    #DB #Oracle #PL/SQL #SQLDeveloper  
+                    <!-- #검색연관키워드
+                    #검색연관키워드 #검색연관키워드 #검색연관키워드
+                    #검색연관키워드 -->
+                  </div>
+                  <div>
+                    <span class="badge bg-done">Done</span>
+                    <!-- <span class="badge bg-inprogress">In Progress</span> -->
+                    <span class="badge bg-grey">SQL</span>
+                    <span class="badge bg-grey">Oracle</span>
+                    <!-- <span class="badge bg-grey">Redux</span>
+                    <span class="badge bg-grey">JavaScript ES6</span>
+                    <span class="badge bg-grey">HTML5 and CSS3</span>
+                    <span class="badge bg-grey">Bootstrap 4</span>
+                    <span class="badge bg-grey">Node.js</span>
+                    <span class="badge bg-grey">Koa</span>
+                    <span class="badge bg-grey">MongoDB</span>
+                    <span class="badge bg-grey">AWS EC2</span> -->
+                  </div>
+                </td>
+                <td class="text-center">
+                  <div class="">(5M/M)</div>
+                  <div class="progress">
+                    <div class="progress-bar progress-bar-striped bg-info" style="width: 100%">
+                      <span class="progress-desc">100%</span>
+                    </div>
+                  </div>
+                  <!-- <div class="progress-desc">DB TeamPJT</div> -->
+                </td>
+                <td class="text-center">
+                  <span class="text-muted" data-bs-toggle="modal" data-bs-target="#Modal2">
+                    <i class="bi bi-file-earmark-slides"></i>
+                    <div class="modal fade" id="Modal2" tabindex="-1" aria-labelledby="Modal1Label" aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="Modal1Label">개발 프로젝트 증빙 자료</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                            <img src="./assets/img/pjtcapture/DBPJT01.png" style="width: 100%;" onclick="imgchange2()" name="pjtimg2">
+                            <p class="modal-desc">
+                              <em style="color: tomato;">오라클을 활용한 '교육센터 운영 프로그램'</em><br>
+                              사용자를 관리자, 교사, 교육생 세 종류로 구분하여 각자 사용자들에게 필요한 요구사항을 분석하고 그에 필요한 데이터를 추출할 수 있습니다. 기본적인 요구분석 이외에도 프로젝트,과제의 피드백과 취업처의 데이터를 활용할 수 있도록 추가하였습니다.
+                              <br>
+                              <span style="color: darkblue;">[이미지 클릭시 다음 이미지로 이동]</span>
+                              
+                            </p>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" onclick="window.location.href='https://github.com/leejunheee/DB_PJT_SIST'">GitHub 저장소로 이동</button>
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </span>
+                </td>
+                </tr>
+
                   <tr>
                     <th class="table-title" scope="col" style="text-align: center;">그룹웨어 서비스 <br>프로젝트</th>
                     <td>
@@ -197,11 +293,14 @@
                               <div class="modal-body">
                                 <img src="./assets/img/pjtcapture/ERPPJT01.png" style="width: 100%;" onclick="imgchange()" name="pjtimg">
                                 <p class="modal-desc">
-                                  ERP 서비스 중 근태(출퇴근 등록, 근무시간조회) 관리, 교육 일정 관리 (등록,수정,삭제) 메뉴 (Java console창 이용) 
-                                  (이미지 클릭시 다음 이미지로 이동)
+                                  <em style="color: tomato;">CONSOLE을 이용한 ERP 서비스</em> <br>
+                                  1. 근태(출퇴근 등록, 근무시간조회) 관리 <br>
+                                  2. 교육 일정 관리 (등록,수정,삭제) 메뉴   <br>
+                                  <span style="color: darkblue;">[이미지 클릭시 다음 이미지로 이동]</span>
                                 </p>
                               </div>
                               <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" onclick="window.location.href='https://github.com/leejunheee/SIST_2Team'">GitHub 저장소로 이동</button>
                                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                               </div>
                             </div>
@@ -210,65 +309,9 @@
                       </span>
                     </td>
                   </tr>
-                  <tr>
-                    <th class="table-title" scope="col" style="text-align: center;">DB 프로젝트 </th>
-                    <td>
-                      <div>데이터베이스(Oracle)을 활용한 '교육센터 운영 프로그램'</div>
-                      <div>
-                        #DB #Oracle #SQLDeveloper #DataGrip 
-                        <!-- #검색연관키워드
-                        #검색연관키워드 #검색연관키워드 #검색연관키워드
-                        #검색연관키워드 -->
-                      </div>
-                      <div>
-                        <span class="badge bg-done">Done</span>
-                        <!-- <span class="badge bg-inprogress">In Progress</span> -->
-                        <span class="badge bg-grey">SQL</span>
-                        <span class="badge bg-grey">Oracle</span>
-                        <!-- <span class="badge bg-grey">Redux</span>
-                        <span class="badge bg-grey">JavaScript ES6</span>
-                        <span class="badge bg-grey">HTML5 and CSS3</span>
-                        <span class="badge bg-grey">Bootstrap 4</span>
-                        <span class="badge bg-grey">Node.js</span>
-                        <span class="badge bg-grey">Koa</span>
-                        <span class="badge bg-grey">MongoDB</span>
-                        <span class="badge bg-grey">AWS EC2</span> -->
-                      </div>
-                    </td>
-                    <td class="text-center">
-                      <div class="">(5M/M)</div>
-                      <div class="progress">
-                        <div class="progress-bar progress-bar-striped bg-info" style="width: 100%">
-                          <span class="progress-desc">100%</span>
-                        </div>
-                      </div>
-                      <!-- <div class="progress-desc">DB TeamPJT</div> -->
-                    </td>
-                    <td class="text-center">
-                      <span class="text-muted" data-bs-toggle="modal" data-bs-target="#Modal2">
-                        <i class="bi bi-file-earmark-slides"></i>
-                        <div class="modal fade" id="Modal2" tabindex="-1" aria-labelledby="Modal1Label" aria-hidden="true">
-                          <div class="modal-dialog">
-                            <div class="modal-content">
-                              <div class="modal-header">
-                                <h5 class="modal-title" id="Modal1Label">개발 프로젝트 증빙 자료</h5>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                              </div>
-                              <div class="modal-body">
-                                <img src="./assets/img/pjtcapture/DBPJT01.png" style="width: 100%;" onclick="imgchange2()" name="pjtimg2">
-                                <p class="modal-desc">
-                                  오라클을 활용한 '교육센터 운영 프로그램'<br>
-                                  사용자를 관리자, 교사, 교육생 세 종류로 구분하여 각자 사용자들에게 필요한 요구사항을 분석하고 그에 필요한 데이터를 추출할 수 있습니다. 기본적인 요구분석 이외에도 프로젝트,과제의 피드백과 취업처의 데이터를 활용할 수 있도록 추가하였습니다.
-                                </p>
-                              </div>
-                              <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </span>
-                    </td>
+
+
+                
                   
                   <!--
                   <tr>
@@ -1176,6 +1219,14 @@
         document.pjtimg2.src = "./assets/img/pjtcapture/DBPJT0" + m + ".png"
         if(m>=2){
           m=0;
+        }
+      }
+      var k =1;
+      function imgchange3(){
+        k++;
+        document.pjtimg3.src = "./assets/img/pjtcapture/JSP0" + k + ".png"
+        if(k>=7){
+          k=0;
         }
       }
     </script>
